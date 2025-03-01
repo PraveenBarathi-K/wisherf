@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/wisherf/static/css/main.8525f2f3.css",
+    "main.js": "/wisherf/static/js/main.a83b4bde.js",
+    "index.html": "/wisherf/index.html",
+    "main.8525f2f3.css.map": "/wisherf/static/css/main.8525f2f3.css.map",
+    "main.a83b4bde.js.map": "/wisherf/static/js/main.a83b4bde.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8525f2f3.css",
+    "static/js/main.a83b4bde.js"
+  ]
+}
