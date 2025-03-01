@@ -1,0 +1,102 @@
+/* Leaderboard Container */
+.leaderboard-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 25px;
+    background: #f8f8f8;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    margin-top: 10vh; /* Adjusted for better centering */
+    text-align: center;
+}
+
+/* Title */
+h2 {
+    font-size: 26px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Leaderboard List */
+.leaderboard-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Leaderboard Items */
+.leaderboard-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    padding: 12px 18px;
+    margin: 8px 0;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+/* Rank Styling */
+.rank {
+    font-size: 20px;
+    font-weight: bold;
+    color: #222;
+}
+
+/* Name Styling */
+.name {
+    flex: 1;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 10px;
+    color: #000;
+}
+
+/* Points Styling */
+.points {
+    font-weight: bold;
+    color: #444;
+}
+
+/* Rank-Specific Colors */
+.rank-1 {
+    background: linear-gradient(135deg, #FFD700, #FFC107); /* Gold */
+    color: black;
+}
+
+.rank-2 {
+    background: linear-gradient(135deg, #C0C0C0, #A9A9A9); /* Silver */
+    color: black;
+}
+
+.rank-3 {
+    background: linear-gradient(135deg, #CD7F32, #D2691E); /* Bronze */
+    color: black;
+}
+
+/* Hover Effect */
+.leaderboard-item:hover {
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .leaderboard-container {
+        width: 85%;
+        margin-top: 12vh; /* Adjusted for better centering */
+        padding: 20px;
+    }
+
+    .leaderboard-item {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+}
